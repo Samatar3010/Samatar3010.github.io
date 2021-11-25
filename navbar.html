@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 30px;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            padding-right: 40px;
+            padding-left: 40px;
+            list-style: none;
+        }
+        svg {
+            display: none;
+        }
+        li {
+            display:block;
+        }
+        @media screen and (max-width: 640px) {
+            svg {
+                display: block;
+            }
+            li {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div><a href="">Logo</a></div>
+
+        <ul>
+            <li>Home</li>
+            <li>Portoflio</li>
+            <li>Contact</li>
+        </ul>
+        <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+        </svg>
+    </div>
+
+</body>
+
+</html>

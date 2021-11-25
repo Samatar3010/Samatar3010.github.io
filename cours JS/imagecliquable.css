@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  #contenaire {
+    display: flex;  
+    height: 80%;
+  
+  }
+  .leftside {
+    width: 25%;
+    background:red;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column; 
+    cursor: pointer;
+  }
+  .mainside {
+    width: 75%;
+    background:blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    flex-direction: column;
+    position: relative;
+  }
+  .leftside img {
+    height: 150px;
+    left: 20px;
+  }

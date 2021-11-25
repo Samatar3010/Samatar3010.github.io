@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  #contenaire {
+    display: flex;  
+  
+  }
+  #leftside {
+    width: 25%;
+    background:red;
+    align-items: center;
+    justify-content: center;
+      display: flex; 
+      flex-direction: column; 
+  
+  }
+  .mainside {
+    width: 75%;
+    background:blue;
+    align-items: center;
+    justify-content: center;
+      display: flex;  
+      flex-direction: column;
+  }
