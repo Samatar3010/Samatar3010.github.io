@@ -6,22 +6,201 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            background-color: burlywood;
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Sorts+Mill+Goudy:ital@0;1&family=Yanone+Kaffeesatz:wght@600&display=swap');
+        *{
+            box-sizing: border-box;
         }
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color:#141414 ;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        body .page {
+            margin: 20px 80px;
+            height: 80vh;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: sticky;
+            top: 0;
+            background-color: #141414 ;
+            padding: 10px 0px;
+        }
+        nav .onglet{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5px;
+
+        }
+        nav .onglet a {
+            margin-right: 20px;
+            cursor: pointer;
+            color: #fff;
+            text-decoration: none;
+        }
+        nav .buttons button {
+            padding: 13px 20px;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            font-size: 15px;
+            outline: none;
+        }
+        nav .buttons .login {
+            background-color: inherit;
+            margin-right: 15px;
+            color: #8f8f8f;
+        }
+        nav .buttons .register {
+            background-color: rgb(255, 0, 0);
+            margin-right: 10px;
+            color: #fff;
+            border-radius: 15px;
+        }
+        /*Partie Header*/
+        header {
+            margin-top: 40px;
+            background-image: url("redmoon.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 300px 300px;
+
+        }
+        header h1 {
+            text-align: center;
+            font-size: 60px;
+            padding: 150px;
+        }
+        /*Fin du Header*/
+
+        /*Partie Footer*/
+        footer {
+            background-color: #1a1a1a;
+            padding: 25px 100px;
+            color: #828282;
+        }
+        footer .colonnes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+        /*Fin du Footer*/
+        @media screen and (max-width: 640px) {
+            body .page {
+                margin: 20px;
+            }
+            nav .onglet {
+                margin-bottom: 15px;
+            }
+            header {
+                margin-top: 20px;
+                background-size: 200px 200px;
+            }
+            header h1 {
+                font-size: 30px;
+                padding: 50px;
+            }
+           
+        }
+        @media screen and (min-width: 230px) {
+            header h1 {
+                font-size: 30px;
+                
+            }
+        }
+        @media screen and (max-width: 218px) {
+            header h1 {
+                font-size: 20px;
+                
+            }
+        }
+        @media (min-width: 641px) and (max-width:803px){
+            .buttons {
+                margin-top: 20px;
+                margin-left: -16px;
+
+            }
+        }
+        
+
+
+
+
     </style>
 </head>
 <body>
-    <h2>Yess!!!</h2>
-    <p><a href="cv.html">Lien vers la page cv</a></p>
-    <p><a href="compteur2.html">Lien ver la page compteur </a></p>
-    <p><a href="flex.html">Lien vers la page flex</a></p>
-    <p><a href="kanyewest.html">Lien vers la page Kanye West</a></p>
-    <p><a href="navbar.html">Lien vers la page navbar</a></p>
-    <p><a href="Navigation.html">Lien vers la page Navigation</a></p>
-    <p><a href="website.html">Lien vers la page website</a></p>
-    <p><a href="website2.html">Lien vers la page website2</a></p>
-    <p><a href="website3.html">Lien vers la page website3</a></p>
+    <section class="page">
+        <!--Ma barre de navigation-->
+        <nav>
+            <div class="onglet">
+                <a href="pageVersMesTravaux.html">Mes travaux</a>
+                <a>About</a>
+                <a>Citation Informatique</a>
+                </div>
+                <div class="buttons">
+                    <button class="login">J'ai déjà un compte</button>
+                    <button class="register">S'enregistrer</button>
+
+                </div>
+        </nav>
+        <!--Fin de la barre de navigation-->
+
+        <!--Header-->
+        <header>
+            <h1>“Quelle prétention de prétendre que
+                 l'informatique est récente : Adam et Eve
+                  avaient déjà un Apple !”</h1>
+        </header>
+
+        <!--Fin du Header-->
+
+    </section><br><br><br><br><br><br><br>
+    <!--Pied de page-->
+    <footer>
+        <div class="colonnes">
+            <div class="colonne">
+            <p>Relations clients</p>
+            <p>Relations Investisseurs</p>
+            <p>Modes de lecture</p>
+            <p>Mentions légales</p>
+        </div>
+
+            <div class="colonne">
+                <p>Centre d'aide</p>
+                <p>Les meilleurs graphistes</p>
+                <p>Entreprise mondiale</p>
+                <p>Chiffre d'affaire</p>
+                <p>Les meilleurs peintres</p>
+            </div>
+
+            <div class="colonne">
+                <p>FAQ</p>
+                <p>Recrutement</p>
+                <p>Conditions d'utilisation</p>
+                <p>Nous contacter</p>
+            </div>
+            <div class="colonne">
+                <p>Compte</p>
+                <p>S'enregistrer</p>
+                <p>Se connecter</p>
+                <p>Nous contacter</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+   <!--Fin de pied de page-->
 
 </body>
 </html>

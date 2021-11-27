@@ -4,48 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <style>
-        body {
-            background-color: lightgray
-        
-        }
-        
-        @media screen and (min-width: 740px) {
-             body {
-                background-color: tan;
-            }
-        }
-        h1 {
-            text-align: center;
-        }
-        h2 {
-            color:brown;
-        }
-        img {
-            box-shadow: 2px 2px 2px gray;
-        }
-    </style>
+    <link rel="stylesheet" href="cv.css">
+    <title>My Curriculum Vitae</title>
 </head>
 <body>
-    <h1>Ahmed Samatar</h1>
-    <div class="image"> 
-    <a href="https://maphotoportrait.fr/1792-large_default/portrait-cv-linkedin.jpg"><img src="https://maphotoportrait.fr/1792-large_default/portrait-cv-linkedin.jpg" alt="Image" style="width:200" height="200"></a>
-</div>
-<h2>Mon expérience</h2>
-<p>Magasinier</p>
-<hr>
-<h2>Mes compétences</h2>
-<p>Homme à tout faire</p>
-<hr>
-<h2>Ma formation</h2>
-<p>Métier manuel</p>
-<hr>
-<h2>Information</h2>
-<footer>
-    <p>Adresse : 272,Boulevard Lambermont 1030 Schaerbeek</p>
-    <p>Tel: 0488/917 873</p>
-    E-mai : samatar@hotmail.be
-</footer>
+    <main>
+        <!--Début du header-->
+        <header>
+            <div>
+                <img class="userpicture" src="sam.png"alt="UserLogo">
+            </div>
+            <div class="profil">
+                <h3>Samatar</h3>
+                <p class="profession">Développeur web et mobile</p>
+            </div>
+            <div class="right-header">
+                <p><img src="logo-email.png" alt="Logo message" class="info"><a href="#">samatar@hotmail.be</a> </p>
+                <p><img src="logo-maps.png" alt="Logo maps" class="info"> 272, Boulevard Lambermont - 1030 Schaerbeek</p>
+                <p><img src="logophone.png" alt="Logo phone" class="info"> +32 488.917 873</p>
+            </div>
+        </header>
+        <!--Fin du header-->
+
+
+
+
+        <!--Début de la section gauche-->
+
+        <section class="section-left">
+            <h4>Atouts</h4>
+            <hr class="light">
+            <div class="atouts">
+                <div><b>Travail d'equipe</b></div>
+                <div class="team">L’esprit d’équipe appelle une unité, une cohésion et une solidarité parmi ses membres. 
+                    Une équipe est une force en mouvement, vivante et dynamique</div>
+            </div>
+            <h4>Formation</h4>
+            <hr class="light">
+
+            <div class="div">
+                <p><img src="milocs.png" width="50" height="30" alt="Milocs-logo">Pré-formation à la mission local de Schaerbeek</p>
+                <p>Rue de Jérusalem 46, 1030 Schaerbeek</p>
+            <p><img src="becode-logo.png" width="50" height="50" alt="Becode-logo">Formation chez Be-code</p>
+            
+            <p>Adresse : Cantersteen 10, 1000 Bruxelles
+            </p>
+            </div>
+
+
+            <h4>Expériences Professionel</h4>
+            <hr class="light">
+            <div class="div">
+                <p><b>Stage Developpeur web</b><strong> (nom: Entreprise), Lieux/Date </strong><br>
+                developpement de site web </p>
+                <p><b>Stage Developpeur web</b><strong> (nom: Entreprise), Lieux/Date </strong><br>
+                developpement d'une application web avec <b>Java</b></p>
+               
+            </div>
+        </section>
+        <!--fin de la section gauche-->
+
+        <!--Début de la section droite-->
+        <section class="section-right">
+            <h4>Compétences</h4>
+            <hr class="light">
+            <div class="competences">
+                <div class="po">
+                    <p>HTML</p>
+                    <div class="cool">
+                        <div style="width: 100%;" class="inner"></div>
+                    </div>
+                </div>
+                <div class="po">
+                    <p>CSS</p>
+                    <div class="cool">
+                        <div style="width: 100%;" class="inner"></div>
+                    </div>
+                </div>
+                <div class="po">
+                    <p>JavaScript</p>
+                    <div class="cool">
+                        <div style="width: 50%;" class="inner"></div>
+                    </div>
+                </div>
+                <div class="po">
+                    <p>PHP</p>
+                    <div class="cool">
+                        <div style="width: 20%;" class="inner"></div>
+                    </div>
+                </div>
+            </div>
+
+            <h4>Langues</h4>
+            <hr class="light">
+            <div class="competences">
+                <div class="po">
+                    <p>Français</p>
+                    <div class="cool">
+                        <div style="width: 100%;" class="inner"></div>
+                    </div>
+                </div>
+                <div class="po">
+                    <p>Anglais</p>
+                    <div class="cool">
+                        <div style="width: 20%;" class="inner"></div>
+                    </div>
+                </div>
+            </div>
+            <h4>Réseau Sociaux</h4>
+            <hr class="light">
+            <div class="interet">
+                <p><img src="logofacebook.jpeg" alt="Facebook" width="30" height="30" class="info"> <span><a href="https://fr-fr.facebook.com/">Facebook</a></span></p>
+                <p><img src="logoinstagram.png" alt="Instagram" width="30" height="30" class="info"> <span><a href="https://www.instagram.com/?hl=fr">Instagram</a></span></p>
+                <p><img src="logolinkedin.png" alt="Linkedin" width="30" height="30" class="info"> <span><a href="https://fr.linkedin.com/">linkedin</a></span></p>
+                <p><img src="logotwitter.png" alt="Twitter" width="30" height="30" class="info"> <span><a href="https://twitter.com/?lang=fr">Twitter</a></span></p>
+            </div>
+
+            <h4>Centre d'interets</h4>
+            <hr class="light">
+            <div class="interet">
+                <div><b>Sport d'endurance</b></div>
+                <div><b>Voyage</b></div>
+                <div><b>IT</b></div>
+                <div><b>Lecture</b></div>
+            </div>
+        </section>
+        <!--Fin de la section droite-->
+        <div class="srkl">
+        </div>
+        
+        <hr class="light">
+    </main>
+ 
 </body>
 </html>
