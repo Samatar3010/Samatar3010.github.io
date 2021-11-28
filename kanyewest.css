@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
+.top-section {
     background-color: black;
-}
-.imgkanye {
+    height: auto;
     text-align: center;
 }
-section {
+
+.bottom-section {
     text-align: center;
     margin-top: 35px;
 }
@@ -25,4 +25,13 @@ section {
 }
 body {
     background-color: royalblue;
+}
+@media (max-width:516px) {
+    .top-section {
+        width: 615px;
+        
+    }
+    .bottom-section {
+        text-align: center;
+    }
 }
