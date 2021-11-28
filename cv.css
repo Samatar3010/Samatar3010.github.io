@@ -130,13 +130,13 @@ span {
     text-decoration: none;
     color: blue;
     font-weight: bold;
-}
+}/*
 .srkl {
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
     width: 100%;
-}
+}*/
 @media (max-width:816px) {
     main {
         display: flex;
