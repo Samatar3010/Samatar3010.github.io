@@ -24,7 +24,7 @@
         nav {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             position: sticky;
             top: 0;
             background-color: #141414 ;
@@ -32,7 +32,7 @@
         }
         nav .onglet{
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             margin-top: 5px;
 
         }
@@ -107,19 +107,19 @@
             }
            
         }
-        @media screen and (min-width: 230px) {
+        @media screen and (max-width:803px) {
+            nav {
+                display: block;
+            }
+
+        }
+        @media screen and (max-width: 888px) {
             header h1 {
-                font-size: 30px;
+                font-size: 40px;
                 
             }
         }
-        @media screen and (max-width: 218px) {
-            header h1 {
-                font-size: 20px;
-                
-            }
-        }
-        @media (min-width: 641px) and (max-width:803px){
+        @media screen and (max-width: 803px) {
             .buttons {
                 margin-top: 20px;
                 margin-left: -16px;
@@ -147,11 +147,11 @@
                 <a>About</a>
                 <a>Citation Informatique</a>
                 </div>
-                <div class="buttons">
-                    <button class="login">J'ai déjà un compte</button>
-                    <button class="register">S'enregistrer</button>
-
-                </div>
+                
+            <div class="buttons">
+                <button class="login">J'ai déjà un compte</button>    
+                <button class="register">S'enregistrer</button>
+            </div>
         </nav>
         <!--Fin de la barre de navigation-->
 
