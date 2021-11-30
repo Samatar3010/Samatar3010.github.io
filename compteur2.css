@@ -29,9 +29,9 @@ body {
   button {
     font-weight: bold;
   }
-  @media  screen and (max-width:460px) {
+  @media  screen and (max-width:380px) {
     button, h1 {
-      padding-top: 80px;
+      padding-top: 200px;
     }
  
     
