@@ -26,3 +26,6 @@ body {
     border-radius: 20px;
     cursor: pointer;
   }
+  button {
+    font-weight: bold;
+  }
