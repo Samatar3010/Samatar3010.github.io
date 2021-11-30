@@ -29,7 +29,7 @@ body {
   button {
     font-weight: bold;
   }
-  @media  screen and (max-width:400px) {
+  @media  screen and (max-width:460px) {
     button, h1 {
       padding-top: 80px;
     }
