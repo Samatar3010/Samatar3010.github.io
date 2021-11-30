@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #111;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+.carousel-inner{
+    padding-top: 40px;
+    margin: auto;
+    max-width: 600px;
+
+}
+@media screen and (min-width:700px) {
+    .carousel-inner{
+        padding-top: 160px;
+        margin: auto;
+        max-width: 1100px;
+    }
+}
