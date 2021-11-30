@@ -7,7 +7,7 @@ body {
     background-image: url("studio-img.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: auto;
+    height: 180vh;
     color: #fff;
     text-align: center;
     font-size: 25px;
@@ -18,7 +18,7 @@ h1 {
 @media screen and (min-width:720px) {
     body {
         height: 120vh;
+        display: flex;
+        flex-direction: column;
     }
-    
-    
 }
