@@ -5,13 +5,19 @@
 }
 .top-section {
     background-color: black;
+    width: 100%;
     height: auto;
+}
+.top-section p {
     text-align: center;
 }
 
 .bottom-section {
-    text-align: center;
     margin-top: 35px;
+    text-align: center;
+}
+#citation {
+    margin-left: 0px;
 }
 #citation_new {
     margin-top: 30px;
@@ -26,21 +32,10 @@
 }
 body {
     background-color: royalblue;
-}
-@media (max-width:516px) {
-    .top-section {
-        width: 615px;
-        height: auto;
-        
-    }
-   .bottom-section{
-       margin-left: 150px;
-       height: auto;
-       text-align: left;
-   } 
+    margin: auto;
 }
 @media screen and (min-width:768px) {
-        .bottom-section {
-            padding-right: 25px;
+        body {
+            text-align: center;
     }
 }

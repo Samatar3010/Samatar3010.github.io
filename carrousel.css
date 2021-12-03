@@ -16,6 +16,11 @@ h1 {
     max-width: 600px;
 
 }
+.carousel-inner {
+    -webkit-transition: 1.2s ease-in-out !important;
+    -o-transition: -o-transform 1.2s ease-in-out !important;
+    transition: transform 1.2s ease-in-out !important;
+}
 @media screen and (min-width:700px) {
     .carousel-inner{
         margin: auto;
