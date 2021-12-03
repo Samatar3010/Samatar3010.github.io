@@ -17,6 +17,7 @@ nav {
 }
 .buttons {
     margin-top: 20px;
+    margin-left: -20px;
 }
 nav .onglet{
     margin-top: 10px;
