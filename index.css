@@ -76,7 +76,7 @@ footer .colonnes {
 }
 /*Fin du Footer*/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:644px) {
     nav {
         display: flex;
         justify-content: space-between;
@@ -90,7 +90,7 @@ footer .colonnes {
         margin-top: 80px;
         background-size: 350px 350px;
         height: 40vh;
-        padding: 40px;
+        padding: 20px;
     }
     
 }
