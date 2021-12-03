@@ -33,7 +33,6 @@ nav .buttons button {
     color: #fff;
     cursor: pointer;
     border: none;
-    font-size: 15px;
     outline: none;
 }
 nav .buttons .login {
@@ -65,18 +64,18 @@ header h1 {
 /*Partie Footer*/
 footer {
     background-color: #1a1a1a;
-    padding: 25px 100px;
     color: #828282;
+    padding: 25px 100px;
 }
 footer .colonnes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
+
 /*Fin du Footer*/
 
-@media screen and (min-width:644px) and (max-width:1023px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     nav {
         display: flex;
         justify-content: space-between;
@@ -87,12 +86,15 @@ footer .colonnes {
         margin-top: 0px;
     }
     header {
-        margin-top: 80px;
-        background-size: 200px 200px;
-        height: 60vh;
-        padding: 60px;
+        margin-top: 20px;
+        background-size: 300px 300px;
+        padding: 80px;
+    }
+    footer {
+        padding: 6px;
     }
 }
+
 @media  screen and (min-width:1024px) {
     nav {
         display: flex;
@@ -105,50 +107,35 @@ footer .colonnes {
         display: flex;
         margin-top: 0px;
     }
+   
     header {
-        padding:200px
+        margin-top: 10px;
+        padding:200px;
+        background-size: 300px 300px;
+
     }
+  
     
 }
-
-/*
-@media screen and (max-width: 870px) {
-    body .page {
-        margin: 20px;
-    }
-    nav .onglet {
-        margin-bottom: 15px;
-    }
-    header {
-        margin-top: 20px;
-        background-size: 200px 200px;
-    }
-    header h1 {
+@media  screen and (min-width:1900px) {
+    nav {
         font-size: 20px;
     }
+    .buttons button {
+        font-size: 20px;
+    }
+    
+    header {
+        background-size: 500px 500px;
+    }
+    header h1 {
+        font-size: 30px;
+    }
    
-}
-@media screen and (max-width:803px) {
-    nav {
-        display: block;
+    footer {
+        font-size: 20px;
     }
 
 }
 
-@media screen and (max-width: 803px) {
-    .buttons {
-        margin-top: 20px;
-        margin-left: -16px;
 
-    }
-}
-@media (max-width:450px) {
-    #last-column {
-        display: none;
-    }
-}
-
-
-
-
-*/
