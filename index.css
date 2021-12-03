@@ -52,13 +52,13 @@ header {
     background-image: url("redmoon.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 300px 300px;
+    background-size: 280px 280px;
 
 }
 header h1 {
     text-align: center;
-    font-size: 35px;
-    padding: 60px;
+    font-size: 25px;
+    padding: 90px;
 }
 /*Fin du Header*/
 
@@ -90,8 +90,9 @@ footer .colonnes {
         margin-top: 80px;
         background-size: 300px 300px;
         height: 50vh;
-        padding: 40px;
+        padding: 70px;
     }
+
     
 }
 /*
