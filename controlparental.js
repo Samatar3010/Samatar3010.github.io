@@ -6,6 +6,8 @@ const ageInput = document.getElementById("age");
 
 const parentalInput = document.getElementById("parental");
 
+var input = document.getElementById("age");
+
 let age;
 let isControlParentalActive;
 let ageMajorite = 18;
@@ -45,3 +47,13 @@ function onConfirm(){
 appelle la fonction onConfirm */
 
 bouton.addEventListener("click", onConfirm);
+
+
+// maintenant on peut valider le formulaire on appuyant sur la touche Enter
+
+input.addEventListener("keyup", (event) =>{
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("bouton").click();
+    }
+})
