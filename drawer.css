@@ -21,13 +21,14 @@ body {
     width: 25%;
     height: 100vh;
     border: 1px solid black;
-    background-color: rgba(128, 0, 128, 1);
+    background-color: #111;
     text-align: center;
     font-size: 18px;
     flex-direction: column;
     z-index: 1;
 }
 #iconecroix {
+    color:red;
     position: absolute;
     top: 0;
     right: 0;
@@ -41,4 +42,16 @@ body {
 .loremo {
     background-color: rgb(230, 230, 230);
     opacity: 0.6;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h2 {
+    color: #fff;
+    font-size: 2em;
+}
+button {
+    margin-top: 15px;
+    font-size: 1em;
 }

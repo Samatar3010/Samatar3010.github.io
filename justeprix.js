@@ -65,10 +65,7 @@ function main() {
     } while (rejouer);
     window.alert("Merci et au revoir ");
 }
-/*
-window.addEventListener("load", () => {
-    main()
-})*/
+
 button.addEventListener("load", () => {
     main()
 })

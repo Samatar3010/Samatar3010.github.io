@@ -50,10 +50,10 @@ bouton.addEventListener("click", onConfirm);
 
 
 // maintenant on peut valider le formulaire on appuyant sur la touche Enter
+// le chiffre 13 est le code de charactère de la touche Enter
 
 input.addEventListener("keyup", (event) =>{
     if (event.keyCode === 13) {
-        event.preventDefault();
         document.getElementById("bouton").click();
     }
 })
