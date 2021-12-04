@@ -23,7 +23,7 @@ body {
     border: 1px solid black;
     background-color: #111;
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
     flex-direction: column;
     z-index: 1;
 }
@@ -66,6 +66,8 @@ button {
     #content {
         width: 25%;
         font-size: 2em;
+        overflow: auto;
+
     }
     h2 {
         font-size: 25px;
