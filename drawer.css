@@ -67,6 +67,7 @@ button {
         width: 25%;
         font-size: 2em;
         overflow: auto;
+        height: auto;
 
     }
     h2 {
