@@ -69,3 +69,22 @@ function main() {
 button.addEventListener("load", () => {
     main()
 })
+
+/*  Ceci est un teste pour le booléen rejouer
+
+var rejouer = confirm("Voulez-vous rejouer ? ");
+if (rejouer == true) {
+    alert("Enter une valeur pour rejouer");
+}
+else {
+    alert("Merci et aurevoir")
+}
+*/
+
+/*  Ceci est une prompt box
+
+var user = prompt("Pleaser enter your name");
+alert(user);
+
+
+*/
