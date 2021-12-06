@@ -11,6 +11,11 @@ body {
     width: 100%;
     border-bottom: 1px solid black;
 }
+.navbar span {
+    font-size: 18px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
 #content{
     display: none;
     width: 100%;
@@ -26,20 +31,22 @@ body {
     font-size: 25px;
     flex-direction: column;
     z-index: 1;
-    overflow: auto;
+    overflow-y: auto;
 }
 #iconecroix {
     color:red;
     position: absolute;
-    top: -10px;
-    right: -2px;
+    top: 0;
+    right: 0;
     cursor: pointer;
+    font-size: 20px;
 }
 
 #content-enfant h2, p {
     padding-bottom: 15px ;
     width: 100%;
 }
+
 a {
     text-decoration: none;
     color: #fff;
@@ -60,11 +67,15 @@ button {
     background-size: 100% 100%; 
     background-attachment: fixed;
 }
-@media screen and (min-width:758px) {
+@media screen and (min-width:768px) {
     #content {
-        width: 30%;
+        width: 25%;
         font-size: 2em;
-        overflow: auto;
+        overflow:auto;
+    }
+    #content-enfant a:hover {
+        text-decoration: underline;
+    
     }
     h2 {
         font-size: 25px;
@@ -78,9 +89,10 @@ button {
     }
     #iconecroix {
         position: absolute;
-        top: -15px;
-        right: -5px;
+        top: -10px;
+        right: 4px;
         cursor: pointer;
+        font-size: 1.55em;
     }
     
 }
