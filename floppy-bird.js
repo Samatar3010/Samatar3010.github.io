@@ -7,7 +7,7 @@ img.src = "flappy-bird-set.png";
 
 let gamePlaying = false;
 const gravity = .5;
-const speed = 4.8; // c'est la vitesse du jeux 
+const speed = 10.8; // c'est la vitesse du jeux 
 const size = [51, 36]; // la première valeur représente la largeur et la 2em valeur pour la hauteur
 const jump = -11.5; // le niveau de difficulté du jump
 const cTenth = (canvas.width / 10);
